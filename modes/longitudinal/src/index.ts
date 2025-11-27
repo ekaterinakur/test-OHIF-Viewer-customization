@@ -28,8 +28,8 @@ export const longitudinalInstance = {
   id: ohif.layout,
   props: {
     ...basicLayout.props,
-    leftPanels: [tracked.thumbnailList],
-    rightPanels: [tracked.measurements, cornerstone.segmentation],
+    leftPanels: [tracked.measurements],
+    rightPanels: [cornerstone.segmentation, tracked.thumbnailList],
     viewports: [
       {
         namespace: tracked.viewport,
